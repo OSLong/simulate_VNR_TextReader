@@ -16,8 +16,8 @@ class myPanel(QGroupBox):
         self.setContentsMargins(0,50,0,50)
 
     def add_label(self,lb):
+
         lb.setMargin(10)
         self.container.addWidget(lb,1)
-        lb.setStyleSheet("color:white")
         lb.setWordWrap(True)
         lb.setFixedWidth(GetSystemMetrics(0)/2.3)
